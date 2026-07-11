@@ -1,1 +1,289 @@
+/* ===== GENEL AYARLAR ===== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0f0f0f;
+    color:white;
+}
+
+/* ===== HEADER ===== */
+
+header{
+    width:100%;
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    box-shadow:0 5px 15px rgba(0,0,0,.4);
+}
+
+.logo h2{
+    color:white;
+    font-size:32px;
+}
+
+.logo span{
+    color:#e00000;
+}
+
+.logo p{
+    color:#aaa;
+    font-size:14px;
+}
+
+nav{
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#e00000;
+}
+
+.telefon{
+    background:#e00000;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:40px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.telefon:hover{
+    transform:scale(1.05);
+}
+
+/* ===== HERO ===== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:150px 8%;
+    gap:60px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h1{
+    font-size:72px;
+    margin-bottom:15px;
+}
+
+.hero-text h1 span{
+    color:#e00000;
+}
+
+.hero-text h2{
+    color:#ddd;
+    margin-bottom:25px;
+}
+
+.hero-text p{
+    font-size:20px;
+    color:#bdbdbd;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+}
+
+.btn1,
+.btn2{
+    padding:16px 30px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.3s;
+}
+
+.btn1{
+    background:#e00000;
+    color:white;
+}
+
+.btn2{
+    border:2px solid #e00000;
+    color:white;
+}
+
+.btn1:hover,
+.btn2:hover{
+    transform:translateY(-4px);
+}
+
+.hero-image{
+    flex:1;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.5);
+}
+/*==========================
+HAKKIMIZDA
+==========================*/
+
+.about{
+    padding:100px 8%;
+    text-align:center;
+}
+
+.about h2{
+    font-size:42px;
+    margin-bottom:30px;
+    color:#e00000;
+}
+
+.about p{
+    max-width:900px;
+    margin:auto;
+    font-size:20px;
+    line-height:1.8;
+    color:#cfcfcf;
+}
+
+/*==========================
+MARKALAR
+==========================*/
+
+.brands{
+    padding:100px 8%;
+    background:#181818;
+    text-align:center;
+}
+
+.brands h2{
+    font-size:42px;
+    color:#e00000;
+    margin-bottom:50px;
+}
+
+.brand-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+}
+
+.brand-grid div{
+    background:#242424;
+    padding:30px;
+    border-radius:15px;
+    font-size:22px;
+    font-weight:bold;
+    transition:.35s;
+    cursor:pointer;
+}
+
+.brand-grid div:hover{
+    background:#e00000;
+    transform:translateY(-8px);
+}
+
+/*==========================
+ÜRÜNLER
+==========================*/
+
+.services{
+    padding:100px 8%;
+    text-align:center;
+}
+
+.services h2{
+    font-size:42px;
+    color:#e00000;
+    margin-bottom:50px;
+}
+
+.service{
+    background:#1b1b1b;
+    margin:25px auto;
+    max-width:900px;
+    padding:40px;
+    border-radius:18px;
+    transition:.35s;
+}
+
+.service:hover{
+    transform:scale(1.02);
+    box-shadow:0 10px 35px rgba(224,0,0,.3);
+}
+
+.service h3{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.service p{
+    color:#c8c8c8;
+    font-size:18px;
+    line-height:1.7;
+}
+
+/*==========================
+İLETİŞİM
+==========================*/
+
+.contact{
+    padding:100px 8%;
+    background:#181818;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:42px;
+    color:#e00000;
+    margin-bottom:40px;
+}
+
+.contact p{
+    font-size:22px;
+    margin:18px 0;
+}
+
+.contact a{
+    color:#e00000;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/*==========================
+FOOTER
+==========================*/
+
+footer{
+    background:#090909;
+    text-align:center;
+    padding:30px;
+    color:#888;
+}
