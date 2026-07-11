@@ -40,7 +40,7 @@ header{
 }
 
 .logo span{
-    color:#e00000;
+    color:#1565C0;
 }
 
 .logo p{
@@ -61,11 +61,11 @@ nav a{
 }
 
 nav a:hover{
-    color:#e00000;
+    color:#1565C0;
 }
 
 .telefon{
-    background:#e00000;
+    background:#1565C0;
     color:white;
     text-decoration:none;
     padding:12px 20px;
@@ -99,7 +99,7 @@ nav a:hover{
 }
 
 .hero-text h1 span{
-    color:#e00000;
+    color:#1565C0;
 }
 
 .hero-text h2{
@@ -129,12 +129,12 @@ nav a:hover{
 }
 
 .btn1{
-    background:#e00000;
+    background:#1565C0;
     color:white;
 }
 
 .btn2{
-    border:2px solid #e00000;
+    border:2px solid #1565C0;
     color:white;
 }
 
@@ -164,7 +164,7 @@ HAKKIMIZDA
 .about h2{
     font-size:42px;
     margin-bottom:30px;
-    color:#e00000;
+    color:#1565C0;
 }
 
 .about p{
@@ -187,7 +187,7 @@ MARKALAR
 
 .brands h2{
     font-size:42px;
-    color:#e00000;
+    color:#1565C0;
     margin-bottom:50px;
 }
 
@@ -208,7 +208,7 @@ MARKALAR
 }
 
 .brand-grid div:hover{
-    background:#e00000;
+    background:#1565C0;
     transform:translateY(-8px);
 }
 
@@ -223,7 +223,7 @@ MARKALAR
 
 .services h2{
     font-size:42px;
-    color:#e00000;
+    color:#1565C0;
     margin-bottom:50px;
 }
 
@@ -264,7 +264,7 @@ MARKALAR
 
 .contact h2{
     font-size:42px;
-    color:#e00000;
+    color:#1565C0;
     margin-bottom:40px;
 }
 
@@ -274,7 +274,7 @@ MARKALAR
 }
 
 .contact a{
-    color:#e00000;
+    color:#1565C0;
     text-decoration:none;
     font-weight:bold;
 }
