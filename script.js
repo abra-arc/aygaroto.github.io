@@ -1,17 +1,18 @@
-// Sayfa açılırken yumuşak görünme efekti
-window.addEventListener("load", () => {
-    document.body.style.opacity = "1";
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.getElementById("nav-menu");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
 });
 
-// Başlık aşağı kaydırınca küçülsün
 window.addEventListener("scroll", () => {
+
     const header = document.querySelector("header");
 
-    if (window.scrollY > 60) {
-        header.style.padding = "12px 8%";
-        header.style.background = "#0a0a0a";
-    } else {
-        header.style.padding = "20px 8%";
-        header.style.background = "#111";
+    if(window.scrollY > 50){
+        header.style.background="#0b0f15";
+    }else{
+        header.style.background="rgba(13,17,23,.95)";
     }
+
 });
