@@ -314,3 +314,63 @@ section h2{
 }
 
 }
+/* ===== MOBİL MENÜ ===== */
+
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    color:#ffffff;
+    cursor:pointer;
+}
+
+@media (max-width:900px){
+
+    header{
+        flex-wrap:wrap;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    nav{
+        display:none;
+        width:100%;
+        flex-direction:column;
+        margin-top:20px;
+        background:#161b22;
+        border-radius:15px;
+        padding:15px;
+    }
+
+    nav.active{
+        display:flex;
+    }
+
+    nav a{
+        padding:12px;
+        border-bottom:1px solid #333;
+    }
+
+    .telefon{
+        display:none;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding-top:120px;
+    }
+
+    .hero-text h1{
+        font-size:42px;
+    }
+
+    .hero-text p{
+        font-size:17px;
+    }
+
+    .hero-image img{
+        margin-top:30px;
+    }
+}
